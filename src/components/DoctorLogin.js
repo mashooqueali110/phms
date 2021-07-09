@@ -18,6 +18,7 @@ function DoctorLogin() {
       className="container ma-10 border border-primary"
       style={{ width: 400 }}
     >
+      <h1> Iam to chekc</h1>
       <Form>
         <Form.Group controlId="formBasicEmail ">
           <Form.Label>Email address</Form.Label>

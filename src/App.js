@@ -27,9 +27,9 @@ function App() {
     <div className="App">
       <center>
         {/* <PatientCard temp={names}/> */}
-        {/* <Homepage /> */}
+        <Homepage />
       </center>
-      <DoctorLogin />
+      {/* <DoctorLogin /> */}
     </div>
   );
 }

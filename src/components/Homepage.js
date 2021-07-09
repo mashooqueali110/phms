@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import Login from "./Login";
+import Nav from "./Nav";
 
 function Homepage() {
   const [show, setShow] = useState(0);
@@ -14,7 +15,7 @@ function Homepage() {
   return (
     <div className="container border border-primary">
       <div className="d-flex justify-content-end">
-        <Button
+        {/* <Button
           name="login"
           onClick={() => setShow(1)}
           className="btn-primary btn-lg mx-5"
@@ -23,7 +24,8 @@ function Homepage() {
         </Button>
         <Button name="signup" className="btn-primary btn-lg">
           Sign up
-        </Button>
+        </Button> */}
+        <Nav/>
       </div>
     </div>
   );

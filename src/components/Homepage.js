@@ -15,7 +15,7 @@ function Homepage() {
   return (
     <div className="container border border-primary">
       <div className="d-flex justify-content-end">
-        {/* <Button
+        <Button
           name="login"
           onClick={() => setShow(1)}
           className="btn-primary btn-lg mx-5"
@@ -24,8 +24,8 @@ function Homepage() {
         </Button>
         <Button name="signup" className="btn-primary btn-lg">
           Sign up
-        </Button> */}
-        <Nav/>
+        </Button>
+        
       </div>
     </div>
   );

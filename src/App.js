@@ -28,6 +28,8 @@ function App() {
       <center>
         {/* <PatientCard temp={names}/> */}
         <Homepage />
+
+        <p>Hello this is Homepage</p>
       </center>
       {/* <DoctorLogin /> */}
     </div>
